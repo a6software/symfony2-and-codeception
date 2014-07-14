@@ -1,10 +1,10 @@
-{% extends "A6UserBundle::layout.html.twig" %}
+{% extends "::base.html.twig" %}
 
  {% block stylesheets %}
      <link href="{{ asset('bundles/a6user/css/signin.css') }}" rel="stylesheet" />
  {% endblock %}
 
-{% block fos_user_content %}
+{% block body %}
     {% if error %}
         <div>{{ error|trans }}</div>
     {% endif %}
@@ -46,4 +46,4 @@
                class="btn btn-lg btn-primary btn-block"
                 />
     </form>
-{% endblock fos_user_content %}
+{% endblock body %}

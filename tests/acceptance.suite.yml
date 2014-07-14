@@ -11,4 +11,4 @@ modules:
         - AcceptanceHelper
     config:
         PhpBrowser:
-            url: 'http://localhost/myapp/'
+            url: 'http://codeception_is_awesome.dev/app_codecept.php/'

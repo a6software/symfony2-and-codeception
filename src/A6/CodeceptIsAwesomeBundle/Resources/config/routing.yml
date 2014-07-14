@@ -1,3 +1,7 @@
 a6_codecept_is_awesome_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: A6CodeceptIsAwesomeBundle:Default:index }
+    path:     /
+    defaults: { _controller: A6CodeceptIsAwesomeBundle:Home:index }
+
+a6_codecept_is_awesome_secured_area:
+    path:     /secured-area
+    defaults: { _controller: A6CodeceptIsAwesomeBundle:SecuredArea:securedIndex }
