@@ -1,5 +1,26 @@
 {% extends "::base.html.twig" %}
 
+{% block javascripts %}
+    <script type="text/javascript" src="/bundles/a6codeceptisawesome/js/showFlash.js"></script>
+{% endblock %}
+
 {% block body %}
-    {{ ourText }}!
+
+    {% for flashMessage in app.session.flashbag.get('info') %}
+        <div class="bg-info">
+            {{ flashMessage }}
+        </div>
+    {% endfor %}
+
+    <div id="hiddenMessage" class="bg-danger">You must tick the box to continue...!</div>
+
+    <main id="content">
+        <h1>Our header</h1>
+
+        <p>Some other text here</p>
+
+        {{ form(form) }}
+
+    </main>
+
 {% endblock %}
