@@ -1,0 +1,15 @@
+imports:
+    - { resource: config_prod.yml }
+
+framework:
+    profiler: { only_exceptions: false }
+
+twig:
+    cache: false
+
+swiftmailer:
+    disable_delivery: true
+
+doctrine:
+    dbal:
+        dbname: %test_database_name%
