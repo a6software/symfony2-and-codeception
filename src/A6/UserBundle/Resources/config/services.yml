@@ -1,0 +1,7 @@
+parameters:
+#    a6_user.example.class: A6\UserBundle\Example
+
+services:
+#    a6_user.example:
+#        class: %a6_user.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

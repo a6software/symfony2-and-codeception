@@ -1,0 +1,7 @@
+parameters:
+#    a6_s_codecept_is_awesome.example.class: A6\CodeceptIsAwesomeBundle\Example
+
+services:
+#    a6_s_codecept_is_awesome.example:
+#        class: %a6_s_codecept_is_awesome.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

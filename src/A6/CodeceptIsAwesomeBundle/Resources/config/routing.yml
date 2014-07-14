@@ -1,0 +1,3 @@
+a6_codecept_is_awesome_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: A6CodeceptIsAwesomeBundle:Default:index }
