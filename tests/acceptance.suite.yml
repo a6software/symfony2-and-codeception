@@ -12,3 +12,4 @@ modules:
     config:
         PhpBrowser:
             url: 'http://codeception_is_awesome.dev/app_codecept.php/'
+#            url: 'http://www.bbc.co.uk/'

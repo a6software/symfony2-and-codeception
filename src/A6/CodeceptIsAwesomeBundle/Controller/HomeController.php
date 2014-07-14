@@ -8,6 +8,10 @@ class HomeController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('A6CodeceptIsAwesomeBundle::index.html.twig');
+        $variable = 'Hello';
+
+        return $this->render('A6CodeceptIsAwesomeBundle::index.html.twig', array(
+            'ourText'   => $variable
+        ));
     }
 }
