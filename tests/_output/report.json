@@ -1,0 +1,41 @@
+{
+    "event": "suiteStart",
+    "suite": "acceptance",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "acceptance",
+    "test": " (FTestCept)"
+}{
+    "event": "test",
+    "suite": "acceptance",
+    "test": " (FTestCept)",
+    "status": "fail",
+    "time": 4.7390270233154,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/codeception_is_awesome.dev\/tests\/acceptance\/AcceptanceTester.php",
+            "line": 271,
+            "function": "runStep",
+            "class": "Codeception\\Scenario",
+            "type": "->",
+            "args": [
+                {
+                    "executed": true
+                }
+            ]
+        },
+        {
+            "file": "\/var\/www\/html\/codeception_is_awesome.dev\/tests\/acceptance\/FTestCept.php",
+            "line": 8,
+            "function": "see",
+            "class": "AcceptanceTester",
+            "type": "->",
+            "args": [
+                "Please tick this box if you want to proceed"
+            ]
+        }
+    ],
+    "message": "Failed asserting that   <bold>\/app_codecept.php\/<\/bold>\n--><info>Our header\nSome other text here\nShow Flash Message?\nSave<\/info>\n--> contains \"please tick this box if you want to proceed\".",
+    "output": ""
+}
