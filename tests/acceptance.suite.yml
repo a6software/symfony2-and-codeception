@@ -7,13 +7,13 @@
 class_name: AcceptanceTester
 modules:
     enabled:
-#        - WebDriver
-        - PhpBrowser
+        - WebDriver
+#        - PhpBrowser
         - AcceptanceHelper
     config:
-        PhpBrowser:
-            url: 'http://codeception_is_awesome.dev/app_codecept.php/'
-#        WebDriver:
-#            browser: firefox
-#            host: 192.168.1.127
+#        PhpBrowser:
 #            url: 'http://codeception_is_awesome.dev/app_codecept.php/'
+        WebDriver:
+            browser: firefox
+            host: 192.168.1.127
+            url: 'http://codeception_is_awesome.dev/app_codecept.php/'
