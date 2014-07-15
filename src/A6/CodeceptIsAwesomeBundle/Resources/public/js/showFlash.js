@@ -8,7 +8,9 @@ jQuery(document).ready(function(){
 
     hiddenMessage.hide();
 
-    submitButton.on('click', function(){
+    submitButton.on('click', function(e){
+        e.preventDefault();
+
         if ( showFlashMessageCheckbox.prop('checked') === false ) {
             hiddenMessage.show();
         }

@@ -7,6 +7,14 @@
 
 {% block body %}
 
+    <div>
+    {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+        <a href="{{ path('fos_user_security_logout') }}">Log out now</a>
+    {% else %}
+        <a href="{{ path('fos_user_security_login') }}">Let me log in please, kthx</a>
+    {% endif %}
+    </div>
+
     {% for flashMessage in app.session.flashbag.get('info') %}
         <div class="bg-info">
             {{ flashMessage }}
