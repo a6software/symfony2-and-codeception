@@ -1,0 +1,8 @@
+TAP version 13
+not ok 1 - Failure: do a test (AjaxCallCest::AjaxCallTest)
+  ---
+  message: 'Failed asserting that   <bold>/app_codecept.php/</bold>'
+  severity: fail
+  ...
+ok 2 - open up the root web page and see the text our header (Index/0001_CanSeeHomepageTextCept)
+1..2
