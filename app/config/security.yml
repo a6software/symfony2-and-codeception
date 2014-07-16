@@ -16,6 +16,7 @@ security:
             form_login:
                 provider: fos_userbundle
                 csrf_provider: form.csrf_provider
+                default_target_path: a6_codecept_is_awesome_secured_area
             logout:       true
             anonymous:    true
 

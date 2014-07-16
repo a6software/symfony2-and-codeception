@@ -1,6 +1,13 @@
 {% extends "::base.html.twig" %}
 
 {% block body %}
+
+    <div id="nested1">
+        <div id="nested2">
+            <a href="{{ path('fos_user_security_logout') }}" class="logout">Log out</a>
+        </div>
+    </div>
+
 The secured area!
 
     {{ form(form) }}
