@@ -54,7 +54,7 @@ class Symfony2 extends \Codeception\Lib\Framework
      */
     public $container;
 
-    public $config = array('app_path' => 'app', 'environment' => 'test', 'debug' => true);
+    public $config = array('app_path' => 'app', 'environment' => 'test', 'var_path' => 'app', 'debug' => true);
     
     /**
      * @var
@@ -65,7 +65,7 @@ class Symfony2 extends \Codeception\Lib\Framework
 
 
     public function _initialize() {
-        $cache = \Codeception\Configuration::projectDir() . $this->config['app_path'] . DIRECTORY_SEPARATOR . 'bootstrap.php.cache';
+        $cache = \Codeception\Configuration::projectDir() . $this->config['var_path'] . DIRECTORY_SEPARATOR . 'bootstrap.php.cache';
         if (!file_exists($cache)) throw new ModuleRequire(__CLASS__, 'Symfony2 bootstrap file not found in '.$cache);
         require_once $cache;
         $this->kernelClass = $this->getKernelClass();
@@ -98,7 +98,7 @@ class Symfony2 extends \Codeception\Lib\Framework
     protected function getKernelClass()
     {
         $finder = new Finder();
-        $finder->name('*Kernel.php')->depth('0')->in(\Codeception\Configuration::projectDir() . $this->config['app_path']);
+        $finder->name('*Kernel.php')->depth('0')->in(\Codeception\Configuration::projectDir() . $this->config['app_dir']);
         $results = iterator_to_array($finder);
         if (!count($results)) {
             throw new ModuleRequire(__CLASS__, 'AppKernel was not found. Specify directory where Kernel class for your application is located in "app_dir" parameter.');

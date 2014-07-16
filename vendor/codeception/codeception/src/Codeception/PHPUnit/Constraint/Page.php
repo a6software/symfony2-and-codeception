@@ -1,6 +1,7 @@
 <?php
 namespace Codeception\PHPUnit\Constraint;
 
+use Codeception\Configuration;
 use Codeception\Lib\Console\Message;
 
 class Page extends \PHPUnit_Framework_Constraint_StringContains
@@ -22,7 +23,8 @@ class Page extends \PHPUnit_Framework_Constraint_StringContains
         $message->prepend("\n-->");
         $message->prepend($this->uriMessage());
         if (strlen($other) > 300) {
-            $debugMessage = new Message("[Content too long to display. See complete response in '_log' directory]");
+            $log = Configuration::logDir();
+            $debugMessage = new Message("[Content too long to display. See complete response in '".$log."' directory]");
             $debugMessage->style('debug')->prepend("\n");
             $message->append($debugMessage);
         }
