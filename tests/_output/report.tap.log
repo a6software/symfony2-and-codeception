@@ -1,8 +1,5 @@
 TAP version 13
-not ok 1 - Failure: do a test (AjaxCallCest::AjaxCallTest)
-  ---
-  message: 'Failed asserting that   <bold>/app_codecept.php/</bold>'
-  severity: fail
-  ...
-ok 2 - open up the root web page and see the text our header (Index/0001_CanSeeHomepageTextCept)
-1..2
+ok 1 - open up the root web page and see the text our header (Index/0001_CanSeeHomepageTextCept)
+ok 2 - ensure a user is unable to log in when providing bad credentials (Login/0001_UnableToLoginWithBadCredentialsCept)
+ok 3 - ensure a user can log in when giving valid credentials. (Login/0002_AbleToLoginWithGoodCredentialsCept)
+1..3

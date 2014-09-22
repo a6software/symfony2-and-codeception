@@ -1,43 +1,7 @@
 {
     "event": "suiteStart",
     "suite": "acceptance",
-    "tests": 2
-}{
-    "event": "testStart",
-    "suite": "acceptance",
-    "test": "ajax call test (AjaxCallCest::AjaxCallTest)"
-}{
-    "event": "test",
-    "suite": "acceptance",
-    "test": "ajax call test (AjaxCallCest::AjaxCallTest)",
-    "status": "fail",
-    "time": 1.2682490348816,
-    "trace": [
-        {
-            "file": "\/var\/www\/html\/codeception_is_awesome.dev\/tests\/acceptance\/AcceptanceTester.php",
-            "line": 271,
-            "function": "runStep",
-            "class": "Codeception\\Scenario",
-            "type": "->",
-            "args": [
-                {
-                    "executed": true
-                }
-            ]
-        },
-        {
-            "file": "\/var\/www\/html\/codeception_is_awesome.dev\/tests\/acceptance\/AjaxCallCest.php",
-            "line": 21,
-            "function": "see",
-            "class": "AcceptanceTester",
-            "type": "->",
-            "args": [
-                "This is some off page content"
-            ]
-        }
-    ],
-    "message": "Failed asserting that   <bold>\/app_codecept.php\/<\/bold>\n--><info>Our header\nSome other text here\nShow Flash Message?\nSave\nClick me<\/info>\n--> contains \"this is some off page content\".",
-    "output": ""
+    "tests": 3
 }{
     "event": "testStart",
     "suite": "acceptance",
@@ -47,10 +11,48 @@
     "suite": "acceptance",
     "test": " (Index\/0001_CanSeeHomepageTextCept)",
     "status": "pass",
-    "time": 1.1496901512146,
+    "time": 1.0963768959045,
     "trace": [
 
     ],
     "message": "",
     "output": ""
+}{
+    "event": "testStart",
+    "suite": "acceptance",
+    "test": " (Login\/0001_UnableToLoginWithBadCredentialsCept)"
+}{
+    "event": "test",
+    "suite": "acceptance",
+    "test": " (Login\/0001_UnableToLoginWithBadCredentialsCept)",
+    "status": "pass",
+    "time": 0.23515009880066,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "acceptance",
+    "test": " (Login\/0002_AbleToLoginWithGoodCredentialsCept)"
+}{
+    "event": "test",
+    "suite": "acceptance",
+    "test": " (Login\/0002_AbleToLoginWithGoodCredentialsCept)",
+    "status": "pass",
+    "time": 0.33550691604614,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "functional",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "functional",
+    "test": " (FirstCept)"
 }
