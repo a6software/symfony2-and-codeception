@@ -6,3 +6,11 @@ modules:
     enabled:
         - Asserts
         - UnitHelper
+        - Symfony2
+        - Doctrine2
+    config:
+        Symfony2:
+            var_path: 'var' # only required if using Symfony 3 directory structure, otherwise defaults to 'app'
+            app_dir: 'app'
+            environment: codecept
+            debug: true
