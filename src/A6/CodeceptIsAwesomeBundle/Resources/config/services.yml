@@ -1,7 +1,8 @@
 parameters:
-#    a6_s_codecept_is_awesome.example.class: A6\CodeceptIsAwesomeBundle\Example
+#    a6_codecept_is_awesome.service.fizz_buzz.class: A6\CodeceptIsAwesomeBundle\Service\FizzBuzz
 
 services:
-#    a6_s_codecept_is_awesome.example:
-#        class: %a6_s_codecept_is_awesome.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+#    a6_codecept_is_awesome.service.fizz_buzz:
+#        class: %a6_codecept_is_awesome.service.fizz_buzz.class%
+
+

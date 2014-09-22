@@ -19,23 +19,23 @@ class ReverseServiceTest extends \Codeception\TestCase\Test
     {
     }
 
-    /**
-     * @dataProvider ourProvider
-     */
-    public function testStringIsReversedAsExpected($originalString, $expectedString)
-    {
-        $this->assertEquals(
-            $expectedString,
-            $this->service->reverse($originalString)
-        );
-    }
-
-    public function ourProvider()
-    {
-        return array(
-            array('abc', 'cba'),
-            array('qaz', 'zaq'),
-            array('123', '321'),
-        );
-    }
+//    /**
+//     * @dataProvider ourProvider
+//     */
+//    public function testStringIsReversedAsExpected($originalString, $expectedString)
+//    {
+//        $this->assertEquals(
+//            $expectedString,
+//            $this->service->reverse($originalString)
+//        );
+//    }
+//
+//    public function ourProvider()
+//    {
+//        return array(
+//            array('abc', 'cba'),
+//            array('qaz', 'zaq'),
+//            array('123', '321'),
+//        );
+//    }
 }
