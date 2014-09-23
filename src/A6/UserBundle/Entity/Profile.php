@@ -5,7 +5,7 @@ namespace A6\UserBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="A6\UserBundle\Repository\ProfileRepository")
  * @ORM\Table(name="user_profile")
  */
 class Profile
@@ -24,22 +24,22 @@ class Profile
     protected $user;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", name="first_name")
      */
     protected $firstName;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", name="middle_name")
      */
     protected $middleName;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", name="last_name")
      */
     protected $lastName;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", name="job_title")
      */
     protected $jobTitle;
 
@@ -49,11 +49,16 @@ class Profile
     protected $salary;
 
     /**
-     * @ORM\Column(type="boolean")
+     * @ORM\Column(type="boolean", name="receive_mailing")
      */
     protected $receiveMailing;
 
 
+
+    public function __construct(User $user)
+    {
+        $this->user = $user;
+    }
 
     /**
      * @return mixed
@@ -72,16 +77,6 @@ class Profile
     }
 
     /**
-     * @param User $user
-     */
-    public function setUser(User $user)
-    {
-        $this->user = $user;
-
-        return $this;
-    }
-
-    /**
      * @return mixed
      */
     public function getFirstName()
@@ -90,7 +85,8 @@ class Profile
     }
 
     /**
-     * @param mixed $firstName
+     * @param $firstName
+     * @return $this
      */
     public function setFirstName($firstName)
     {
@@ -109,6 +105,7 @@ class Profile
 
     /**
      * @param mixed $middleName
+     * @return $this
      */
     public function setMiddleName($middleName)
     {
@@ -127,6 +124,7 @@ class Profile
 
     /**
      * @param mixed $lastName
+     * @return $this
      */
     public function setLastName($lastName)
     {
@@ -145,6 +143,7 @@ class Profile
 
     /**
      * @param mixed $jobTitle
+     * @return $this
      */
     public function setJobTitle($jobTitle)
     {
@@ -163,6 +162,7 @@ class Profile
 
     /**
      * @param mixed $salary
+     * @return $this
      */
     public function setSalary($salary)
     {
@@ -181,6 +181,7 @@ class Profile
 
     /**
      * @param mixed $receiveMailing
+     * @return $this
      */
     public function setReceiveMailing($receiveMailing)
     {

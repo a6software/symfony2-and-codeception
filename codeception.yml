@@ -11,7 +11,9 @@ settings:
 modules:
     config:
         Db:
-            dsn: ''
-            user: ''
+            dsn: 'mysql:host=localhost;dbname=codecept_test_db'
+            user: 'root'
             password: ''
             dump: tests/_data/dump.sql
+            cleanup: true
+            populate: true

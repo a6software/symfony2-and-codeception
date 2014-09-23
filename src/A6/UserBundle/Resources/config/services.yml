@@ -5,3 +5,11 @@ services:
 #    a6_user.example:
 #        class: %a6_user.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
+
+
+    a6_user.repository.profile_repository:
+        class: Doctrine\ORM\EntityRepository
+        factory_service: doctrine.orm.default_entity_manager
+        factory_method: getRepository
+        arguments:
+            - A6\UserBundle\Entity\Profile
