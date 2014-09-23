@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28caf6a1-5c56-4e8a-a2e3-31f16766618d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/unit/A6/CodeceptIsAwesomeBundle/Service/DbTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/A6/UserBundle/DataFixtures/ORM/LoadProfileData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/A6/UserBundle/DataFixtures/ORM/LoadUserData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/A6/UserBundle/Repository/ProfileRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/A6/CodeceptIsAwesomeBundle/Service/FizzBuzzServiceTest.php" afterPath="$PROJECT_DIR$/tests/unit/A6/CodeceptIsAwesomeBundle/Service/FizzBuzzServiceTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A6/UserBundle/Entity/Profile.php" afterPath="$PROJECT_DIR$/src/A6/UserBundle/Entity/Profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeception.yml" afterPath="$PROJECT_DIR$/codeception.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_codecept.yml" afterPath="$PROJECT_DIR$/app/config/config_codecept.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_data/dump.sql" afterPath="$PROJECT_DIR$/tests/_data/dump.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A6/UserBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/A6/UserBundle/Resources/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit.suite.yml" afterPath="$PROJECT_DIR$/tests/unit.suite.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="28caf6a1-5c56-4e8a-a2e3-31f16766618d" name="Default" comment="" />
     <ignored path="codeception_is_awesome.dev.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
