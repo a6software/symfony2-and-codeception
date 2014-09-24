@@ -1,5 +1,0 @@
-TAP version 13
-ok 1 - open up the root web page and see the text our header (Index/0001_CanSeeHomepageTextCept)
-ok 2 - ensure a user is unable to log in when providing bad credentials (Login/0001_UnableToLoginWithBadCredentialsCept)
-ok 3 - ensure a user can log in when giving valid credentials. (Login/0002_AbleToLoginWithGoodCredentialsCept)
-1..3

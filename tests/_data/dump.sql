@@ -53,9 +53,9 @@ LOCK TABLES `fos_user` WRITE;
 
 INSERT INTO `fos_user` (`id`, `username`, `username_canonical`, `email`, `email_canonical`, `enabled`, `salt`, `password`, `last_login`, `locked`, `expired`, `expires_at`, `confirmation_token`, `password_requested_at`, `roles`, `credentials_expired`, `credentials_expire_at`)
 VALUES
-	(1,'timmy','timmy','timmy@timson.net','timmy@timson.net',0,'9u5oas81yccg8k8sscwc48cwok0c000','1MiNzADO3XpGp2bzK1Bex7HNLSbprNEPFRrGpe0Wk7IlDM+enhLEXOpNlgFlg0QytTYMraJTNY9lf+BpDP0Bzg==',NULL,0,0,NULL,NULL,NULL,'a:0:{}',0,NULL),
+	(1,'timmy','timmy','timmy@timson.net','timmy@timson.net',1,'9u5oas81yccg8k8sscwc48cwok0c000','1MiNzADO3XpGp2bzK1Bex7HNLSbprNEPFRrGpe0Wk7IlDM+enhLEXOpNlgFlg0QytTYMraJTNY9lf+BpDP0Bzg==',NULL,0,0,NULL,NULL,NULL,'a:0:{}',0,NULL),
 	(2,'billy','billy','billy@bluehat.org','billy@bluehat.org',0,'kzmd2ydl81wk0w4g0sg8cwo484g88ko','f+2smQ3m/3PeYN5z3t9NC/SpXaYxkIu6MpdYfHnwbpqg5gymPX/Yd+zfSSdLAc6DyuojnDcXCHHJYtSn3RCqrg==',NULL,0,0,NULL,NULL,NULL,'a:0:{}',0,NULL),
-	(3,'donald','donald','donald@duck.co.uk','donald@duck.co.uk',0,'1pbv8xd245q80wckgscgc4ckc4sgs4k','DDWXl1/MLuSGdMy4/hLrCypDFFi3ZVJVYYSpve2dgvmvlMZG33sAM/rw/YJLOf5MgZQ1A/fSsvncNTDz88ggoA==',NULL,0,0,NULL,NULL,NULL,'a:0:{}',0,NULL);
+	(3,'donald','donald','donald@duck.co.uk','donald@duck.co.uk',1,'1pbv8xd245q80wckgscgc4ckc4sgs4k','DDWXl1/MLuSGdMy4/hLrCypDFFi3ZVJVYYSpve2dgvmvlMZG33sAM/rw/YJLOf5MgZQ1A/fSsvncNTDz88ggoA==',NULL,0,0,NULL,NULL,NULL,'a:0:{}',0,NULL);
 
 /*!40000 ALTER TABLE `fos_user` ENABLE KEYS */;
 UNLOCK TABLES;

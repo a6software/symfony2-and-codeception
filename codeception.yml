@@ -8,12 +8,32 @@ settings:
     bootstrap: _bootstrap.php
     colors: true
     memory_limit: 1024M
+coverage:
+    enabled: true
+    remote: true
+    include:
+      - src/*
+    exclude:
+      - var/*
+      - bin/*
+      - app/*
+      - vendor/*
+      - web/*
 modules:
     config:
         Db:
-            dsn: 'mysql:host=localhost;dbname=codecept_test_db'
+            # mysql config
+            dsn: 'mysql:host=localhost;dbname=codecept_tutorial'
             user: 'root'
             password: ''
             dump: tests/_data/dump.sql
             cleanup: true
             populate: true
+
+            # sqlite config
+#            dsn: 'sqlite:app/codecept_data.sqlite'
+#            user: 'root'
+#            password: ''
+#            dump: tests/_data/dump-sqlite.sql
+#            cleanup: true
+#            populate: true

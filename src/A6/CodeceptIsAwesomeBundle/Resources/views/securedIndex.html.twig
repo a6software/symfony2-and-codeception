@@ -8,7 +8,75 @@
         </div>
     </div>
 
-The secured area!
+    {% for flashMessage in app.session.flashbag.get('notice') %}
+        <div class="flash-notice">
+            {{ flashMessage }}
+        </div>
+    {% endfor %}
 
-    {{ form(form) }}
+    <div>
+        <h1>The secured area!</h1>
+
+        {{ form_start(form, {'attr': {'class': 'form-horizontal', 'role': 'form'}}) }}
+        {{ form_errors(form) }}
+
+        <div class="form-group">
+            {{ form_label(form.firstName, 'First Name', {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+            <div class="col-sm-6">
+                {{ form_errors(form.firstName) }}
+                {{ form_widget(form.firstName, {'attr': {'class': 'form-control'}}) }}
+            </div>
+        </div>
+
+        <div class="form-group">
+            {{ form_label(form.middleName, 'Middle Name', {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+            <div class="col-sm-6">
+                {{ form_errors(form.middleName) }}
+                {{ form_widget(form.middleName, {'attr': {'class': 'form-control'}}) }}
+            </div>
+        </div>
+
+        <div class="form-group">
+            {{ form_label(form.lastName, 'Last Name', {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+            <div class="col-sm-6">
+                {{ form_errors(form.lastName) }}
+                {{ form_widget(form.lastName, {'attr': {'class': 'form-control'}}) }}
+            </div>
+        </div>
+
+        <div class="form-group">
+            {{ form_label(form.jobTitle, 'Job Title', {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+            <div class="col-sm-6">
+                {{ form_errors(form.jobTitle) }}
+                {{ form_widget(form.jobTitle, {'attr': {'class': 'form-control'}}) }}
+            </div>
+        </div>
+
+        <div class="form-group">
+            {{ form_label(form.salary, 'Salary', {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+            <div class="col-sm-6">
+                {{ form_errors(form.salary) }}
+                {{ form_widget(form.salary, {'attr': {'class': 'form-control'}}) }}
+            </div>
+        </div>
+
+        <div class="form-group">
+            {{ form_label(form.receiveMailing, 'Receive Mailing', {'label_attr': {'class': 'col-sm-2 control-label'}}) }}
+            <div class="col-sm-6">
+                {{ form_errors(form.receiveMailing) }}
+                {{ form_widget(form.receiveMailing, {'attr': {'class': 'checkbox'}}) }}
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-6">
+                {{ form_widget(form.save, {'attr': {'class': 'btn btn-default'}}) }}
+            </div>
+        </div>
+
+        {{ form_end(form) }}
+
+    </div>
+
 {% endblock %}

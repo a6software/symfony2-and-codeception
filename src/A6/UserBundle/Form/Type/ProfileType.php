@@ -15,7 +15,7 @@ class ProfileType extends AbstractType
             ->add('middleName')
             ->add('lastName')
             ->add('jobTitle')
-            ->add('salary')
+            ->add('salary', 'number')
             ->add('receiveMailing')
             ->add('save', 'submit');
     }

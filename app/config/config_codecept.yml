@@ -12,4 +12,6 @@ swiftmailer:
 
 doctrine:
     dbal:
+#        driver: pdo_sqlite
+#        path: "%kernel.root_dir%/codecept_data.sqlite"
         dbname: %test_database_name%

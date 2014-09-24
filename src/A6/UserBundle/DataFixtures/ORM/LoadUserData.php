@@ -21,6 +21,7 @@ class LoadUserData extends AbstractFixture implements OrderedFixtureInterface
             $user->setUsername($data[0])
                 ->setEmail($data[1])
                 ->setPlainPassword($data[2])
+                ->setEnabled($data[3])
             ;
 
             $manager->persist($user);
@@ -47,9 +48,9 @@ class LoadUserData extends AbstractFixture implements OrderedFixtureInterface
     private function getData()
     {
         return array(
-            array('timmy', 'timmy@timson.net', 'timmy123'),
-            array('billy', 'billy@bluehat.org', 'billy456'),
-            array('donald', 'donald@duck.co.uk', 'donald789'),
+            array('timmy', 'timmy@timson.net', 'timmy123', true),
+            array('billy', 'billy@bluehat.org', 'billy456', false),
+            array('donald', 'donald@duck.co.uk', 'donald789', true),
         );
     }
 

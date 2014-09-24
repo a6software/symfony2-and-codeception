@@ -1,7 +1,10 @@
 <?php
 
+require __DIR__ . '/../c3.php';
+
 use Symfony\Component\ClassLoader\ApcClassLoader;
 use Symfony\Component\HttpFoundation\Request;
+
 
 $loader = require_once __DIR__.'/../var/bootstrap.php.cache';
 
