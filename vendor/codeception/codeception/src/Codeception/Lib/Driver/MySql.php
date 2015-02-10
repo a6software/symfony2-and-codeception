@@ -5,6 +5,8 @@ class MySql extends Db
 {
     public function cleanup()
     {
+        exit('clean up');
+
         $this->dbh->exec('SET FOREIGN_KEY_CHECKS=0;');
         $res = $this->dbh->query("SHOW FULL TABLES WHERE TABLE_TYPE LIKE '%TABLE';")->fetchAll();
         foreach ($res as $row) {

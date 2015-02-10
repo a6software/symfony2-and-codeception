@@ -21,19 +21,10 @@ coverage:
       - web/*
 modules:
     config:
-        Db:
-            # mysql config
+        DbHelper:
             dsn: 'mysql:host=localhost;dbname=codecept_tutorial'
             user: 'root'
             password: ''
             dump: tests/_data/dump.sql
             cleanup: true
             populate: true
-
-            # sqlite config
-#            dsn: 'sqlite:app/codecept_data.sqlite'
-#            user: 'root'
-#            password: ''
-#            dump: tests/_data/dump-sqlite.sql
-#            cleanup: true
-#            populate: true
