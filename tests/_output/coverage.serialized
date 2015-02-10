@@ -1,0 +1,1739 @@
+<?php
+$coverage = new PHP_CodeCoverage;
+$coverage->setData(array (
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/views/Security/login.html.twig' => 
+  array (
+    1 => 
+    array (
+    ),
+    3 => 
+    array (
+    ),
+    4 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    7 => 
+    array (
+    ),
+    8 => 
+    array (
+    ),
+    9 => 
+    array (
+    ),
+    10 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    45 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/views/layout.html.twig' => 
+  array (
+    1 => 
+    array (
+    ),
+    3 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    6 => 
+    array (
+    ),
+    7 => 
+    array (
+    ),
+    8 => 
+    array (
+    ),
+    9 => 
+    array (
+    ),
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/public/css/signin.css' => 
+  array (
+    1 => 
+    array (
+    ),
+    2 => 
+    array (
+    ),
+    3 => 
+    array (
+    ),
+    4 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    7 => 
+    array (
+    ),
+    8 => 
+    array (
+    ),
+    9 => 
+    array (
+    ),
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/translations/messages.fr.xlf' => 
+  array (
+    1 => 
+    array (
+    ),
+    2 => 
+    array (
+    ),
+    3 => 
+    array (
+    ),
+    4 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    6 => 
+    array (
+    ),
+    7 => 
+    array (
+    ),
+    8 => 
+    array (
+    ),
+    9 => 
+    array (
+    ),
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/config/services.yml' => 
+  array (
+    1 => 
+    array (
+    ),
+    2 => 
+    array (
+    ),
+    4 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    6 => 
+    array (
+    ),
+    7 => 
+    array (
+    ),
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/config/routing.yml' => 
+  array (
+    1 => 
+    array (
+    ),
+    2 => 
+    array (
+    ),
+    3 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Entity/Profile.php' => 
+  array (
+    59 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    84 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    93 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    96 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    104 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    112 => 
+    array (
+    ),
+    114 => 
+    array (
+    ),
+    115 => 
+    array (
+    ),
+    121 => 
+    array (
+    ),
+    122 => 
+    array (
+    ),
+    123 => 
+    array (
+    ),
+    130 => 
+    array (
+    ),
+    131 => 
+    array (
+    ),
+    133 => 
+    array (
+    ),
+    134 => 
+    array (
+    ),
+    140 => 
+    array (
+    ),
+    141 => 
+    array (
+    ),
+    142 => 
+    array (
+    ),
+    149 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    152 => 
+    array (
+    ),
+    153 => 
+    array (
+    ),
+    159 => 
+    array (
+    ),
+    160 => 
+    array (
+    ),
+    161 => 
+    array (
+    ),
+    168 => 
+    array (
+    ),
+    169 => 
+    array (
+    ),
+    171 => 
+    array (
+    ),
+    172 => 
+    array (
+    ),
+    178 => 
+    array (
+    ),
+    179 => 
+    array (
+    ),
+    180 => 
+    array (
+    ),
+    187 => 
+    array (
+    ),
+    188 => 
+    array (
+    ),
+    190 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Entity/User.php' => 
+  array (
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/A6UserBundle.php' => 
+  array (
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Form/Type/ProfileType.php' => 
+  array (
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DependencyInjection/Configuration.php' => 
+  array (
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DependencyInjection/A6UserExtension.php' => 
+  array (
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Repository/ProfileRepository.php' => 
+  array (
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DataFixtures/ORM/LoadUserData.php' => 
+  array (
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    45 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    51 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DataFixtures/ORM/LoadProfileData.php' => 
+  array (
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    51 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Service/ReverseStringService.php' => 
+  array (
+    8 => 
+    array (
+    ),
+    9 => 
+    array (
+    ),
+    10 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Service/SalaryCalculator.php' => 
+  array (
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Service/FizzBuzzService.php' => 
+  array (
+    8 => 
+    array (
+    ),
+    9 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/views/index.html.twig' => 
+  array (
+    1 => 
+    array (
+    ),
+    3 => 
+    array (
+    ),
+    4 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    6 => 
+    array (
+    ),
+    8 => 
+    array (
+    ),
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/views/Default/index.html.twig' => 
+  array (
+    1 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/views/securedIndex.html.twig' => 
+  array (
+    1 => 
+    array (
+    ),
+    3 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    6 => 
+    array (
+    ),
+    7 => 
+    array (
+    ),
+    8 => 
+    array (
+    ),
+    9 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    45 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    51 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    57 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/public/js/showFlash.js' => 
+  array (
+    1 => 
+    array (
+    ),
+    3 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    6 => 
+    array (
+    ),
+    7 => 
+    array (
+    ),
+    9 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/public/js/showModal.js' => 
+  array (
+    1 => 
+    array (
+    ),
+    3 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    6 => 
+    array (
+    ),
+    7 => 
+    array (
+    ),
+    8 => 
+    array (
+    ),
+    9 => 
+    array (
+    ),
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/translations/messages.fr.xlf' => 
+  array (
+    1 => 
+    array (
+    ),
+    2 => 
+    array (
+    ),
+    3 => 
+    array (
+    ),
+    4 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    6 => 
+    array (
+    ),
+    7 => 
+    array (
+    ),
+    8 => 
+    array (
+    ),
+    9 => 
+    array (
+    ),
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/config/services.yml' => 
+  array (
+    1 => 
+    array (
+    ),
+    2 => 
+    array (
+    ),
+    4 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    6 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/config/routing.yml' => 
+  array (
+    1 => 
+    array (
+    ),
+    2 => 
+    array (
+    ),
+    3 => 
+    array (
+    ),
+    5 => 
+    array (
+    ),
+    6 => 
+    array (
+    ),
+    7 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Controller/SecuredAreaController.php' => 
+  array (
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Controller/HomeController.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Controller/DefaultController.php' => 
+  array (
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Command/FizzBuzzerCommand.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/DependencyInjection/Configuration.php' => 
+  array (
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+  ),
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/DependencyInjection/A6CodeceptIsAwesomeExtension.php' => 
+  array (
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => NULL,
+));
+
+$filter = $coverage->filter();
+$filter->setBlacklistedFiles(array (
+));
+$filter->setWhitelistedFiles(array (
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/views/Security/login.html.twig' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/views/layout.html.twig' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/doc/index.rst' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/public/css/signin.css' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/translations/messages.fr.xlf' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/config/services.yml' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/config/routing.yml' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Entity/Profile.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Entity/User.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/A6UserBundle.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Form/Type/ProfileType.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DependencyInjection/Configuration.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DependencyInjection/A6UserExtension.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Repository/ProfileRepository.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DataFixtures/ORM/LoadUserData.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DataFixtures/ORM/LoadProfileData.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Service/ReverseStringService.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Service/SalaryCalculator.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Service/FizzBuzzService.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/views/index.html.twig' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/views/Default/index.html.twig' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/views/securedIndex.html.twig' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/doc/index.rst' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/public/js/showFlash.js' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/public/js/showModal.js' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/translations/messages.fr.xlf' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/config/services.yml' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/config/routing.yml' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Controller/SecuredAreaController.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Controller/HomeController.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Controller/DefaultController.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/A6CodeceptIsAwesomeBundle.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Command/FizzBuzzerCommand.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/DependencyInjection/Configuration.php' => true,
+  '/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/DependencyInjection/A6CodeceptIsAwesomeExtension.php' => true,
+));
+
+return $coverage;

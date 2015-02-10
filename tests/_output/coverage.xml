@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1411567349">
+  <project timestamp="1411567349">
+    <package name="A6\CodeceptIsAwesomeBundle\Command">
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Command/FizzBuzzerCommand.php">
+        <class name="FizzBuzzerCommand" namespace="A6\CodeceptIsAwesomeBundle\Command">
+          <metrics methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="17" coveredelements="0"/>
+        </class>
+        <line num="13" type="method" name="configure" crap="2" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="23" type="method" name="execute" crap="6" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <metrics loc="33" ncloc="33" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="17" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="A6\CodeceptIsAwesomeBundle\Controller">
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Controller/DefaultController.php">
+        <class name="DefaultController" namespace="A6\CodeceptIsAwesomeBundle\Controller">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="indexAction" crap="2" count="0"/>
+        <line num="10" type="stmt" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Controller/HomeController.php">
+        <class name="HomeController" namespace="A6\CodeceptIsAwesomeBundle\Controller">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="0" elements="18" coveredelements="0"/>
+        </class>
+        <line num="10" type="method" name="indexAction" crap="12" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <metrics loc="31" ncloc="31" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="0" elements="18" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Controller/SecuredAreaController.php">
+        <class name="SecuredAreaController" namespace="A6\CodeceptIsAwesomeBundle\Controller" fullPackage="A6" package="A6">
+          <metrics methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="0" elements="35" coveredelements="0"/>
+        </class>
+        <line num="21" type="method" name="securedIndexAction" crap="6" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="40" type="method" name="getProfile" crap="2" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="48" type="method" name="getUserId" crap="6" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="65" type="method" name="getProfileById" crap="2" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="73" type="method" name="saveForm" crap="2" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <metrics loc="81" ncloc="60" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="0" elements="35" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="A6\CodeceptIsAwesomeBundle\DependencyInjection">
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/DependencyInjection/A6CodeceptIsAwesomeExtension.php">
+        <class name="A6CodeceptIsAwesomeExtension" namespace="A6\CodeceptIsAwesomeBundle\DependencyInjection">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="7" coveredelements="0"/>
+        </class>
+        <line num="20" type="method" name="load" crap="2" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="28" ncloc="20" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="7" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/DependencyInjection/Configuration.php">
+        <class name="Configuration" namespace="A6\CodeceptIsAwesomeBundle\DependencyInjection">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+        </class>
+        <line num="18" type="method" name="getConfigTreeBuilder" crap="2" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <metrics loc="29" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/config/routing.yml">
+      <line num="1" type="stmt" count="0"/>
+      <line num="2" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="6" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <metrics loc="6" ncloc="6" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="5" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/config/services.yml">
+      <line num="1" type="stmt" count="0"/>
+      <line num="2" type="stmt" count="0"/>
+      <line num="4" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="6" type="stmt" count="0"/>
+      <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="5" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/public/js/showFlash.js">
+      <line num="1" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="6" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <line num="9" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <metrics loc="18" ncloc="18" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="12" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/public/js/showModal.js">
+      <line num="1" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="6" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <line num="8" type="stmt" count="0"/>
+      <line num="9" type="stmt" count="0"/>
+      <line num="10" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <metrics loc="21" ncloc="21" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="0" elements="18" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/translations/messages.fr.xlf">
+      <line num="1" type="stmt" count="0"/>
+      <line num="2" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <line num="4" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="6" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <line num="8" type="stmt" count="0"/>
+      <line num="9" type="stmt" count="0"/>
+      <line num="10" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="11" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/views/Default/index.html.twig">
+      <line num="1" type="stmt" count="0"/>
+      <metrics loc="1" ncloc="1" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="1" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/views/index.html.twig">
+      <line num="1" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <line num="4" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="6" type="stmt" count="0"/>
+      <line num="8" type="stmt" count="0"/>
+      <line num="10" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="0"/>
+      <metrics loc="37" ncloc="37" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="0" elements="25" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Resources/views/securedIndex.html.twig">
+      <line num="1" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="6" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <line num="8" type="stmt" count="0"/>
+      <line num="9" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="40" type="stmt" count="0"/>
+      <line num="41" type="stmt" count="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="43" type="stmt" count="0"/>
+      <line num="44" type="stmt" count="0"/>
+      <line num="45" type="stmt" count="0"/>
+      <line num="47" type="stmt" count="0"/>
+      <line num="48" type="stmt" count="0"/>
+      <line num="49" type="stmt" count="0"/>
+      <line num="50" type="stmt" count="0"/>
+      <line num="51" type="stmt" count="0"/>
+      <line num="52" type="stmt" count="0"/>
+      <line num="53" type="stmt" count="0"/>
+      <line num="55" type="stmt" count="0"/>
+      <line num="56" type="stmt" count="0"/>
+      <line num="57" type="stmt" count="0"/>
+      <line num="58" type="stmt" count="0"/>
+      <line num="59" type="stmt" count="0"/>
+      <line num="60" type="stmt" count="0"/>
+      <line num="61" type="stmt" count="0"/>
+      <line num="63" type="stmt" count="0"/>
+      <line num="64" type="stmt" count="0"/>
+      <line num="65" type="stmt" count="0"/>
+      <line num="66" type="stmt" count="0"/>
+      <line num="67" type="stmt" count="0"/>
+      <line num="68" type="stmt" count="0"/>
+      <line num="69" type="stmt" count="0"/>
+      <line num="72" type="stmt" count="0"/>
+      <line num="73" type="stmt" count="0"/>
+      <line num="74" type="stmt" count="0"/>
+      <line num="75" type="stmt" count="0"/>
+      <line num="76" type="stmt" count="0"/>
+      <line num="78" type="stmt" count="0"/>
+      <line num="80" type="stmt" count="0"/>
+      <line num="82" type="stmt" count="0"/>
+      <metrics loc="82" ncloc="82" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="66" coveredstatements="0" elements="66" coveredelements="0"/>
+    </file>
+    <package name="A6\CodeceptIsAwesomeBundle\Service">
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Service/FizzBuzzService.php">
+        <class name="FizzBuzzService" namespace="A6\CodeceptIsAwesomeBundle\Service">
+          <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="20" coveredelements="20"/>
+        </class>
+        <line num="7" type="method" name="doFizzBuzzer" crap="2" count="1"/>
+        <line num="9" type="stmt" count="1"/>
+        <line num="11" type="stmt" count="1"/>
+        <line num="12" type="stmt" count="1"/>
+        <line num="13" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <line num="18" type="method" name="getResult" crap="5" count="7"/>
+        <line num="20" type="stmt" count="7"/>
+        <line num="22" type="stmt" count="7"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="7"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="6"/>
+        <line num="27" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="7"/>
+        <line num="37" type="method" name="isMultipleOfThree" crap="1" count="7"/>
+        <line num="39" type="stmt" count="7"/>
+        <line num="46" type="method" name="isMultipleOfFive" crap="1" count="7"/>
+        <line num="48" type="stmt" count="7"/>
+        <metrics loc="49" ncloc="41" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="20" coveredelements="20"/>
+      </file>
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Service/ReverseStringService.php">
+        <class name="ReverseStringService" namespace="A6\CodeceptIsAwesomeBundle\Service">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="7" type="method" name="reverse" crap="2" count="0"/>
+        <line num="8" type="stmt" count="0"/>
+        <line num="9" type="stmt" count="0"/>
+        <line num="10" type="stmt" count="0"/>
+        <metrics loc="11" ncloc="11" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/CodeceptIsAwesomeBundle/Service/SalaryCalculator.php">
+        <class name="SalaryCalculator" namespace="A6\CodeceptIsAwesomeBundle\Service">
+          <metrics methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="14" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="__construct" crap="2" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="16" type="method" name="calculateTotalSalary" crap="2" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="24" type="method" name="getBonus" crap="2" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="27" ncloc="27" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="14" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="A6\UserBundle">
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/A6UserBundle.php">
+        <class name="A6UserBundle" namespace="A6\UserBundle">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="9" type="method" name="getParent" crap="1" count="1"/>
+        <line num="11" type="stmt" count="1"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+    </package>
+    <package name="A6\CodeceptIsAwesomeBundle\DataFixtures\ORM">
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DataFixtures/ORM/LoadProfileData.php">
+        <class name="LoadProfileData" namespace="A6\CodeceptIsAwesomeBundle\DataFixtures\ORM">
+          <metrics methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="0" elements="28" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="load" crap="6" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="40" type="method" name="getOrder" crap="2" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="method" name="getData" crap="2" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <metrics loc="53" ncloc="45" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="0" elements="28" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DataFixtures/ORM/LoadUserData.php">
+        <class name="LoadUserData" namespace="A6\CodeceptIsAwesomeBundle\DataFixtures\ORM">
+          <metrics methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="0" elements="29" coveredelements="0"/>
+        </class>
+        <line num="16" type="method" name="load" crap="6" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="43" type="method" name="getOrder" crap="2" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="48" type="method" name="getData" crap="2" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <metrics loc="56" ncloc="48" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="0" elements="29" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="A6\UserBundle\DependencyInjection">
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DependencyInjection/A6UserExtension.php">
+        <class name="A6UserExtension" namespace="A6\UserBundle\DependencyInjection">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="7" coveredelements="0"/>
+        </class>
+        <line num="20" type="method" name="load" crap="2" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="28" ncloc="20" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="7" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/DependencyInjection/Configuration.php">
+        <class name="Configuration" namespace="A6\UserBundle\DependencyInjection">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+        </class>
+        <line num="18" type="method" name="getConfigTreeBuilder" crap="2" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <metrics loc="29" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="A6\UserBundle\Entity">
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Entity/Profile.php">
+        <class name="Profile" namespace="A6\UserBundle\Entity">
+          <metrics methods="15" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="51" coveredstatements="0" elements="66" coveredelements="0"/>
+        </class>
+        <line num="58" type="method" name="__construct" crap="2" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="66" type="method" name="getId" crap="2" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="74" type="method" name="getUser" crap="2" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="82" type="method" name="getFirstName" crap="2" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="91" type="method" name="setFirstName" crap="2" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="93" type="stmt" count="0"/>
+        <line num="95" type="stmt" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="101" type="method" name="getMiddleName" crap="2" count="0"/>
+        <line num="102" type="stmt" count="0"/>
+        <line num="103" type="stmt" count="0"/>
+        <line num="104" type="stmt" count="0"/>
+        <line num="110" type="method" name="setMiddleName" crap="2" count="0"/>
+        <line num="111" type="stmt" count="0"/>
+        <line num="112" type="stmt" count="0"/>
+        <line num="114" type="stmt" count="0"/>
+        <line num="115" type="stmt" count="0"/>
+        <line num="120" type="method" name="getLastName" crap="2" count="0"/>
+        <line num="121" type="stmt" count="0"/>
+        <line num="122" type="stmt" count="0"/>
+        <line num="123" type="stmt" count="0"/>
+        <line num="129" type="method" name="setLastName" crap="2" count="0"/>
+        <line num="130" type="stmt" count="0"/>
+        <line num="131" type="stmt" count="0"/>
+        <line num="133" type="stmt" count="0"/>
+        <line num="134" type="stmt" count="0"/>
+        <line num="139" type="method" name="getJobTitle" crap="2" count="0"/>
+        <line num="140" type="stmt" count="0"/>
+        <line num="141" type="stmt" count="0"/>
+        <line num="142" type="stmt" count="0"/>
+        <line num="148" type="method" name="setJobTitle" crap="2" count="0"/>
+        <line num="149" type="stmt" count="0"/>
+        <line num="150" type="stmt" count="0"/>
+        <line num="152" type="stmt" count="0"/>
+        <line num="153" type="stmt" count="0"/>
+        <line num="158" type="method" name="getSalary" crap="2" count="0"/>
+        <line num="159" type="stmt" count="0"/>
+        <line num="160" type="stmt" count="0"/>
+        <line num="161" type="stmt" count="0"/>
+        <line num="167" type="method" name="setSalary" crap="2" count="0"/>
+        <line num="168" type="stmt" count="0"/>
+        <line num="169" type="stmt" count="0"/>
+        <line num="171" type="stmt" count="0"/>
+        <line num="172" type="stmt" count="0"/>
+        <line num="177" type="method" name="getReceiveMailing" crap="2" count="0"/>
+        <line num="178" type="stmt" count="0"/>
+        <line num="179" type="stmt" count="0"/>
+        <line num="180" type="stmt" count="0"/>
+        <line num="186" type="method" name="setReceiveMailing" crap="2" count="0"/>
+        <line num="187" type="stmt" count="0"/>
+        <line num="188" type="stmt" count="0"/>
+        <line num="190" type="stmt" count="0"/>
+        <line num="191" type="stmt" count="0"/>
+        <metrics loc="195" ncloc="116" classes="1" methods="15" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="51" coveredstatements="0" elements="66" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Entity/User.php">
+        <class name="User" namespace="A6\UserBundle\Entity">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="21" type="method" name="__construct" crap="2" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <metrics loc="24" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="A6\UserBundle\Form\Type">
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Form/Type/ProfileType.php">
+        <class name="ProfileType" namespace="A6\UserBundle\Form\Type">
+          <metrics methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="0" elements="21" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="buildForm" crap="2" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="23" type="method" name="setDefaultOptions" crap="2" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="method" name="getName" crap="2" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <metrics loc="33" ncloc="33" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="0" elements="21" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="A6\UserBundle\Repository">
+      <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Repository/ProfileRepository.php">
+        <class name="ProfileRepository" namespace="A6\UserBundle\Repository">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="7" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="remove" crap="2" count="0"/>
+        <line num="10" type="stmt" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <metrics loc="17" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="7" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/config/routing.yml">
+      <line num="1" type="stmt" count="0"/>
+      <line num="2" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <metrics loc="3" ncloc="3" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="3" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/config/services.yml">
+      <line num="1" type="stmt" count="0"/>
+      <line num="2" type="stmt" count="0"/>
+      <line num="4" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="6" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <line num="10" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <metrics loc="14" ncloc="14" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="11" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/public/css/signin.css">
+      <line num="1" type="stmt" count="0"/>
+      <line num="2" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <line num="4" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <line num="8" type="stmt" count="0"/>
+      <line num="9" type="stmt" count="0"/>
+      <line num="10" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="40" type="stmt" count="0"/>
+      <metrics loc="40" ncloc="40" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="0" elements="39" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/translations/messages.fr.xlf">
+      <line num="1" type="stmt" count="0"/>
+      <line num="2" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <line num="4" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="6" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <line num="8" type="stmt" count="0"/>
+      <line num="9" type="stmt" count="0"/>
+      <line num="10" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="11" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/views/Security/login.html.twig">
+      <line num="1" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <line num="4" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <line num="8" type="stmt" count="0"/>
+      <line num="9" type="stmt" count="0"/>
+      <line num="10" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="40" type="stmt" count="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="43" type="stmt" count="0"/>
+      <line num="44" type="stmt" count="0"/>
+      <line num="45" type="stmt" count="0"/>
+      <line num="46" type="stmt" count="0"/>
+      <line num="47" type="stmt" count="0"/>
+      <line num="48" type="stmt" count="0"/>
+      <line num="49" type="stmt" count="0"/>
+      <metrics loc="48" ncloc="48" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="0" elements="39" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/codeception_is_awesome.dev/src/A6/UserBundle/Resources/views/layout.html.twig">
+      <line num="1" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="6" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <line num="8" type="stmt" count="0"/>
+      <line num="9" type="stmt" count="0"/>
+      <line num="10" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <metrics loc="25" ncloc="25" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="0" elements="21" coveredelements="0"/>
+    </file>
+    <metrics files="32" loc="1075" ncloc="898" classes="18" methods="48" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="514" coveredstatements="17" elements="562" coveredelements="22"/>
+  </project>
+</coverage>
